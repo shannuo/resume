@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+	margin:0; 
+	padding:0;
+}
+@font-face {
+   font-family: 'lishu';
+   src:url(fonts/lishu.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'MavenPro-Medium';
+   src: url(fonts/MavenPro-Medium.ttf) format('truetype');
+}
+body{}
+/*about*/
+.about{ 
+	padding:30px 35px;
+	font-family:"Times New Roman", Times, serif;
+	background-color:#6ecadc; 
+}
+.about a{
+	color:#666;
+}
+.about-top{
+	color:rgb(255,255,255);
+}
+.about-top h1{
+	font-size:45px;
+	font-weight:500;
+	margin-bottom:50px;
+}
+.about-top img{
+	margin-bottom:30px;
+	border:1px solid #fff;
+	background-color:rgba(0,153,255,0.1);
+	width:80%;
+}
+.about-body h2{
+	color:rgb(255,255,255);
+	font-size:17px;
+	font-weight:300;
+	margin-top:30px;
+	margin-bottom:2px;
+}
+.about-body p{
+	font-size:15px;
+	font-weight:bold;
+}
+/*experience*/
+.experience{
+	padding:30px 0 0 0;
+	font-family:'lishu', sans-serif;
+	font-size:100%;
+}
+.experience-top1,.experience-top2,.experience-top3,.experience-top4,.experience-top5{
+	color:rgb(255,255,255);
+	padding-left:40px;
+	font-size:35px;
+}
+.experience-top1{
+	background:#b7d28d;	
+	width:65%;
+}
+.experience-top2{
+	background:#e1622f;
+	width:60%;
+}
+.experience-top3{
+	background:#f3d64e;
+	width:53%;
+}
+.experience-top4{
+	background:#fe9778;
+	width:62%;
+}
+.experience-top5{
+	background:#f1b8e4;
+	width:57%;
+}
+.experience-detail{
+	padding:10px 50px;
+}
+.content{
+	color:rgb(153,153,153);
+	padding:0 2em;
+}
+/*屏幕大于等于992*/
+@media (min-width: 992px) {
+.about-top img{
+	margin-bottom:20px;
+	width:80%;
+}
+.experience-top1{
+	width:35%;
+}
+.experience-top2{
+	width:30%;
+}
+.experience-top3{
+	width:23%;
+}
+.experience-top4{
+	width:32%;
+}
+.experience-top5{
+	width:37%;
+}
+}
+/*屏幕大于等于768*/
+@media (min-width: 768px) {
+.about{
+	position:fixed;
+	z-index:10;
+	top:0;
+	left:0;
+	bottom:0;
+	display:block;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.about-top h1{
+	font-size:30px;
+	font-weight:500;
+	margin-bottom:30px;
+}
+.about-top img{
+	margin-bottom:20px;
+	width:70%;
+}
+}
+/*屏幕640-768*/
+@media (min-width: 640px) and (max-device-width : 767px) {
+.about-top{
+	width:25%;
+	float:left;
+}
+.about-top h1{
+	font-size:30px;
+	margin-bottom:20px;
+}
+.about-body{
+	float:right;
+}
+}
+/*屏幕480-640*/
+@media (min-width: 480px) and (max-device-width : 639px) {
+.about-top{
+	width:30%;
+	float:left;
+}
+.about-body{
+	float:right;
+}
+.content
+{
+	padding:0px;
+}
+}
+/*屏幕320-480*/
+@media (min-width: 320px) and (max-device-width : 480px){
+.about-top{
+	width:45%;
+	float:left;
+}
+.about-top h1{
+	font-size:25px;
+	margin-bottom:10px;
+}
+.about-body{
+	float:right;
+	margin-top:20px;
+}
+.about-body h2{
+	margin-top:0px;
+	font-size:15px;
+}
+.experience{
+	padding:10px 0 0 0;
+}
+.experience-detail{ 
+	padding:10px;
+}
+.experience-detail h3{ 
+	font-size:15px;
+}
+.experience-top1,.experience-top2,.experience-top3,.experience-top4,.experience-top5{
+	padding-left:20px;
+	font-size:25px;
+}
+.content{
+	padding:0;
+}
+.content h4{
+	font-size:14px;
+}
+}
+
