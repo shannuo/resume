@@ -17,7 +17,7 @@ body{}
 .about{ 
 	padding:30px 35px;
 	font-family:"Times New Roman", Times, serif;
-	background-color:#b8f1cc; 
+	background-color:#6ecadc; 
 }
 .about a{
 	color:#666;
@@ -34,7 +34,6 @@ body{}
 	margin-bottom:30px;
 	border:1px solid #fff;
 	background-color:rgba(0,153,255,0.1);
-	padding:15px;
 	width:80%;
 }
 .about-body h2{
@@ -50,7 +49,7 @@ body{}
 }
 /*experience*/
 .experience{
-	padding:80px 0 0 0;
+	padding:30px 0 0 0;
 	font-family:'lishu', sans-serif;
 	font-size:100%;
 }
@@ -60,7 +59,7 @@ body{}
 	font-size:35px;
 }
 .experience-top1{
-	background:#6ecadc;	
+	background:#b7d28d;	
 	width:65%;
 }
 .experience-top2{
@@ -80,37 +79,31 @@ body{}
 	width:57%;
 }
 .experience-detail{
-	padding:20px 50px;
+	padding:10px 50px;
 }
 .content{
 	color:rgb(153,153,153);
-	padding:20px;
+	padding:0 2em;
 }
 /*屏幕大于等于992*/
 @media (min-width: 992px) {
 .about-top img{
 	margin-bottom:20px;
-	padding:15px;
 	width:80%;
 }
 .experience-top1{
-	background:#6ecadc;	
 	width:35%;
 }
 .experience-top2{
-	background:#e1622f;
 	width:30%;
 }
 .experience-top3{
-	background:#f3d64e;
 	width:23%;
 }
 .experience-top4{
-	background:#fe9778;
 	width:32%;
 }
 .experience-top5{
-	background:#f1b8e4;
 	width:37%;
 }
 }
@@ -133,7 +126,6 @@ body{}
 }
 .about-top img{
 	margin-bottom:20px;
-	padding:15px;
 	width:70%;
 }
 }
